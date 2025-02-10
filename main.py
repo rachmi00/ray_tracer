@@ -15,19 +15,19 @@ scene.add_light(Light("ambient", 0.2))
 scene.add_light(Light("point", 0.6, Vector3(2, 1, 0)))
 scene.add_light(Light("directional", 0.2, direction=Vector3(1, 4, 4)))
 
-# Canvas dimensions
+
 CANVAS_WIDTH = 800
 CANVAS_HEIGHT = 600
 
-# Viewport dimensions
+
 VIEWPORT_WIDTH = 1
 VIEWPORT_HEIGHT = 1
 VIEWPORT_DISTANCE = 1
 
-# Camera position
+
 CAMERA_POSITION = Vector3(0, 0, 0)
 
-# Background color
+
 BACKGROUND_COLOR = (255, 255, 255)
 
 # Create the renderer and render the scene

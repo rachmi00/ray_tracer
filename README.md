@@ -128,4 +128,4 @@ You can modify the scene by editing the `main.py` file.
 
 ---
 
-Enjoy exploring the world of ray tracing with this simple yet powerful Python implementation!
+![Spheres Preview](output.png)

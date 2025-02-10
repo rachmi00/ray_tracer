@@ -131,8 +131,9 @@ class Renderer:
 
         for x in range(-self.canvas_width // 2, self.canvas_width // 2):
             for y in range(-self.canvas_height // 2, self.canvas_height // 2):
-                D = self.canvas_to_viewport(x, y)
+                D = self.canvas_to_viewport(x, -y)#flipping my canvas so my spheres are not rendered upsdide down
                 color = self.trace_ray(self.camera_position, D, 1, float('inf'))
                 pixels[x + self.canvas_width // 2, y + self.canvas_height // 2] = color
 
         image.show()
+        image.save("output.png")
